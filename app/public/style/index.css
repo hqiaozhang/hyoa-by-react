@@ -1,0 +1,131 @@
+/*index css*/
+.header{
+  height: 140px;
+  width: 100%;
+}
+
+/*字体图标*/
+/*.icon-home{
+  background: #64bcf1;
+}*/
+.icon-home i:before { 
+  font-size: 34px;
+  content: "\e60b"; 
+  background: #64bcf1;
+}
+.icon-notice {
+  background: #fbba32;
+}
+.icon-notice i:before { 
+  content: "\e604"; 
+}
+.icon-procedure {
+  background: #8ac22f;
+}
+.icon-procedure i:before { 
+  content: "\e63f"; 
+  font-size: 32px;
+}
+.icon-info{
+  background: #27bec9;
+}
+.icon-info i:before { 
+  content: "\e6fb"; 
+}
+.icon-performance{
+  background: #77c4f2;
+}
+.icon-performance i:before { 
+  content: "\e60a"; 
+  font-size: 38px;
+}
+.icon-project{
+  background: #b7b3f0;
+}
+.icon-project i:before { 
+  content: "\e6a7"; 
+  font-size: 38px;
+}
+.icon-work{
+  background: #fab6a7;
+}
+.icon-work i:before { 
+  content: "\e65c"; 
+}
+.icon-books{
+  background: #9ebcd8;
+}
+.icon-books i:before { 
+  content: "\e656"; 
+}
+/*index top nav*/
+.top-menu{
+  list-style: none;
+}
+.top-menu a{
+  display: block;
+  cursor: pointer;
+}
+
+.right-content{
+  float: left;
+  width: 100%;
+}
+
+
+
+/*最新公告*/
+.new-notice{
+  float: left;
+}
+.new-notice .title i:before{
+  content: "\e636"; 
+}
+.new-books{
+  float: right;
+}
+.new-books .title i:before{
+  content: "\e656"; 
+}
+.new-list{
+  width: 535px;
+  background: #fff;
+}
+.new-list .title i{
+  font-size: 20px;
+}
+.new-list .title{
+  height: 45px;
+  background: #eef4f8;
+  font-size: 16px;
+  color: #56b5ee;
+  line-height: 45px;
+  border-top: 3px solid #9ad0f0;
+  width: 96%;
+  padding: 0 2%;
+}
+.new-list .title i{
+  margin-right: 5px;
+}
+.new-list .title span{
+  color: #8ea0bb;
+  font-size: 12px;
+  float: right;
+}
+.new-list .content{
+  width: 90%;
+  color: #333333;
+  font-size: 14px;
+  padding: 2% 5%;
+}
+.new-list .content li{
+  border-bottom: dotted 1px #ccc;
+  padding: 3% 2%;
+}
+.new-list .content li:last-child{
+  border: none;
+}
+.new-list .content span{
+  float: right;
+  font-size: 12px;
+}

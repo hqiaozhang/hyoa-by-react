@@ -1,5 +1,12 @@
+/**
+ *  @Author    zhanghq
+ *  @DateTime  2017-02-21
+ *  @describe  [首页-顶部导航图标]
+ */
+
 import React from 'react'
 import { Component } from 'react'
+import { Link } from 'react-router'
 
 const styles = {
   ul: {
@@ -9,13 +16,12 @@ const styles = {
       width: 60,
       height: 60,
       lineHeight: '60px',
-      background: '#64bcf1',
       borderRadius: 30,
       fontSize: 15,
       fontFamily: '微软雅黑',
       color: '#fff',
       float: 'left',
-      marginLeft: 38,
+      marginRight: 55,
       textAlign: 'center'
   },
   span: {
@@ -30,11 +36,17 @@ class Icon extends Component{
   render(){
     var menu = this.props.menu
     return (
-      <ul className='top-menu'>{
-      menu.map( menu => {
-        console.log(menu.font)
-        return <li  style={styles.lis} key={menu.id} ><i className={menu.fontIcon} ></i><span style={styles.span}>{menu.name}</span></li>
-      })}
+      <ul className='top-menu'>
+      {
+        menu.map( menu => {
+          let id = menu.id
+          return (
+             <li style={styles.lis} key={menu.id} className={menu.fontIcon}>
+               <Link > <i className='iconfont' ></i><span style={styles.span}>{menu.name}</span> </Link>
+             </li>
+          )
+        })
+      }
       </ul>
     )
   }

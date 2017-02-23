@@ -1,0 +1,15 @@
+/*公司公告 css*/
+
+.notice-right{
+  width: 100%;
+  
+}
+.notice-list{
+  width: 100%;
+  margin-top: 20px;
+}
+.notice-list li{
+  width: 96%;
+  padding: 2%;
+  background: #fff;
+}
