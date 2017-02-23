@@ -4,12 +4,66 @@
   width: 100%;
   
 }
+.notice-right h2{
+  font-size: 20px;
+  color: #26354c;
+}
 .notice-list{
   width: 100%;
   margin-top: 20px;
 }
 .notice-list li{
-  width: 96%;
-  padding: 2%;
+  width: 93.5%;
+  padding:1% 2% 1% 4.5%;
   background: #fff;
+  color: #444;
+  line-height: 30px;
+  float: left;
+  position: relative;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.notice-list li h4{
+  font-size: 16px;
+  float: left;
+  display: block;
+
+}
+.notice-list li p{
+  font-size: 13px;
+  color: #666;
+  width: 100%;
+  display: block;
+  float: left;
+}
+.notice-list li span{
+  float: right;
+  color: #666;
+  font-size: 13px;
+  display: block;
+  margin-top: 5px;
+}
+.notice-list .new-icon{
+  background: url(../images/new.png) no-repeat;
+  width: 58px;
+  height: 58px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*分页*/
+.page{
+  float: right;
+}
+.page input{
+  background: #33a1e8;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  width: 105px;
+  height: 38px;
+  margin-left: 20px;
+  font-family: '微软雅黑';
+  border-radius: 5px;
+  text-align: center;
 }

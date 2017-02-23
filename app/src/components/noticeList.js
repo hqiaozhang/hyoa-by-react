@@ -9,15 +9,26 @@ import { Component } from 'react'
 
 class NoticeList extends Component{
   render(){
+    var lists = this.props.lists
+    let style = {  }
     return (
         <div className='notice-right'>
           <h2>公司公告</h2>
           <ul className='notice-list'>
-              <li>
-                <h4>关于春节放假的通知</h4>
-                <span className='time'>2017-01-07</span>
-                <p>为方便小伙伴们更好的安排春节假期人，公司决定调整放假具体如下。。。。</p>
+          {
+            lists.map( (data, index) => {
+              index < 3 ? style = {} : style = { paddingLeft: '2%', width: '95.5%' }
+              return (
+                <li key={index} style={style}>  
+                  { index < 3 ? <div className="new-icon"></div> : '' }
+                  <h4>{data.title}</h4>
+                  <span className='time'>{data.time}</span>
+                  <p>{data.content}</p>
               </li>
+              )
+            })
+          }
+              
           </ul>
         </div>
     )

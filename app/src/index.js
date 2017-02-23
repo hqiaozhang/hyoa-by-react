@@ -11,7 +11,7 @@ import { Main } from './components/main'
 import { Notice } from './components/notice'
  
 render(
-  <Main />,
+  <Notice />,
   document.querySelector('#main')
 )
 
