@@ -21,6 +21,7 @@ i {
   margin: 0;
   padding: 0;
   border:none;
+  font-family: '微软雅黑'
 
 }
 
@@ -64,19 +65,27 @@ body{
 }
 #main{
   width: 1380px;
-  margin: 0 auto;
+ /* margin: 0 auto;*/
+ position: relative;
 }
 .left{
   background: #26354c;
   width: 215px;
   height: 850px;
-  float: left;
+  left: 0;
+  position: absolute;
+ /* float: left;*/
 }
 /*右边*/
 .right{
   width: 1095px;
   background: #eaedf1;
-  float: right;
+  position: absolute;
+  left: 215px;
+ /* float: right;*/
   padding: 0 35px;
   height: 850px;
+}
+.fr{
+  float: right;
 }

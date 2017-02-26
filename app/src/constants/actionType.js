@@ -1,0 +1,10 @@
+// 公司公告列表
+export const NOTICE_LIST = 'NOTICE_LIST'
+export const NOTICE_LIST_SUCCESS = 'NOTICE_LIST_SUCCESS'
+export const NOTICE_LIST_FAILURE = 'NOTICE_LIST_FAILURE'
+
+//todos
+export const ADD_TODO = 'ADD_TODO'
+export const REMOVE_TODO = 'REMOVE_TODO'
+export const SET_VISIBILITY_FILTER = 'SET_VISIBILITY_FILTER'
+

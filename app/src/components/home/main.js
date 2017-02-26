@@ -4,11 +4,11 @@
  *  @describe  [首页]
  */
 // 引入样式
-import style from  "../../public/style/index.css"
+import style from  "../../../public/style/index.css"
 // 引入组件
 import React from 'react'
 import { Component } from 'react'
-import { Left } from './left'
+import { Left } from './../left'
 import { TopNav } from './topNav'
 import { NewNotice } from './newNotice'
 

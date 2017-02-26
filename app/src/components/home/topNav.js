@@ -12,36 +12,28 @@ import { Icon } from './icon'
 const menu = [
   {
     name: '首页',
-    fontIcon: 'icon-home',
-    id: 1
+    fontIcon: 'icon-home'
   },{
     name: '公司公告',
-    fontIcon: 'icon-notice',
-    id: 2
+    fontIcon: 'icon-notice'
   },{
     name: '我的流程',
-    fontIcon: 'icon-procedure',
-    id: 3
+    fontIcon: 'icon-procedure'
   },{
     name: '信息查询',
-    fontIcon: 'icon-info',
-    id: 4
+    fontIcon: 'icon-info'
   },{
     name: '个人绩效',
-    fontIcon: 'icon-performance',
-    id: 5
+    fontIcon: 'icon-performance'
   },{
     name: '项目管理',
-    fontIcon: 'icon-project',
-    id: 6
+    fontIcon: 'icon-project'
   },{
     name: '考勤管理',
-    fontIcon: 'icon-work',
-    id: 7
+    fontIcon: 'icon-work'
   },{
     name: '图书馆',
-    fontIcon: 'icon-books',
-    id: 8
+    fontIcon: 'icon-books'
 
   }
 ]

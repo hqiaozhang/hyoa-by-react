@@ -8,9 +8,10 @@ import style from  "../../public/style/notice.css";
 // 引入组件
 import React from 'react'
 import { Component } from 'react'
-import { Left } from './left'
-import { NoticeList } from './noticeList'
-import { NoticePage } from './noticePage'
+import { Left } from '../components/left'
+import NoticeComponent from '../actions/notice'
+import { NoticeList } from '../components/noticeList'
+import { NoticePage } from '../components/noticePage'
 
 let lists = [
   {
@@ -43,6 +44,10 @@ let lists = [
 ]
 
 class Notice extends Component{
+  componentDidMount() {
+    this.props.loadNavs()
+  }
+  
   render(){
     return (
       <div>

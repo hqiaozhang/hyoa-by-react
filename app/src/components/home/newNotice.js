@@ -21,8 +21,8 @@ class NewNotice extends Component{
         <div>
         <ul className='content'>
         {
-          noticeData.map( data => {
-            return <li>{data.title}<span>{data.time}</span></li>
+          noticeData.map( (data, index) => {
+            return <li key={index}>{data.title}<span>{data.time}</span></li>
           })
         }
          </ul>

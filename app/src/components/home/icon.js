@@ -38,10 +38,10 @@ class Icon extends Component{
     return (
       <ul className='top-menu'>
       {
-        menu.map( menu => {
+        menu.map( (menu, index) => {
           let id = menu.id
           return (
-             <li style={styles.lis} key={menu.id} className={menu.fontIcon}>
+             <li style={styles.lis} key={index} className={menu.fontIcon}>
                <Link > <i className='iconfont' ></i><span style={styles.span}>{menu.name}</span> </Link>
              </li>
           )
