@@ -11,10 +11,11 @@ import { Main } from './components/home/main'
 import { Notice } from './containers/notice'
 import { Process } from './components/process/process'
 import { SendNotice } from './containers/sendNotice'
-
+import { NoticeContent } from './containers/noticeContent'
+import { Books } from './containers/books'
 
 render(
-  <SendNotice />,
+  <Books />,
   document.querySelector('#main')
 )
 
