@@ -70,6 +70,9 @@
   padding: 0 4px;
   cursor: pointer;
 }
+.books-state input:hover{
+  background: #3597d7;
+}
 .state-img{
   position: absolute;
   right: 20px;

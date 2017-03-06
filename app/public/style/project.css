@@ -1,0 +1,84 @@
+/*项目管理*/
+
+.project-main{
+  position: absolute;
+  left: 35px;
+  top: 25px;
+}
+
+.project-main h2{
+  font-size: 20px;
+  color: #26354c;
+  text-shadow: 0 1px 0 #fff;
+}
+.project-list{
+  width: 975px;
+  height: 207px;
+  background: url(../images/project_list_bg.png) no-repeat;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.project-name{
+  line-height: 40px;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 15px;
+
+}
+.project-name span{
+  float: right;
+  font-size: 16px;
+}
+.project-content{
+
+  color: #666;
+  line-height: 30px;
+  float: left;
+  width: 780px;
+  font-size: 14px;
+}
+
+.project-content i.member{
+  background: #76beed;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.project-content .outline{
+  border-radius: 5px;
+  background: #76beed;
+
+  color: #fff;
+  display: inline-block;
+  width: 70px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  float: left;
+  margin-right: 5px;
+
+}
+.project-content p{
+  float: left;
+  width: 690px;
+  line-height: 24px;
+  height: 72px;
+  overflow: hidden;
+}
+.project-progress{
+  float: right;
+  background: url(../images/progress.png) no-repeat center bottom;
+  width: 150px;
+  height: 120px;
+  text-align: center;
+  border-left: 1px solid #eee;
+  margin-top: 5px;
+}
+.project-progress h5{
+  font-size: 14px;
+  font-weight: normal;
+  color: #666;
+}

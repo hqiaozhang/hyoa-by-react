@@ -13,9 +13,10 @@ import { Process } from './components/process/process'
 import { SendNotice } from './containers/sendNotice'
 import { NoticeContent } from './containers/noticeContent'
 import { Books } from './containers/books'
+import { Project } from './containers/project'
 
 render(
-  <Books />,
+  <Project />,
   document.querySelector('#main')
 )
 
